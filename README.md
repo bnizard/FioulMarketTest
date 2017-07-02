@@ -44,6 +44,8 @@ format = json
 
 http://127.0.0.1:8000/api/fiouls/42/2015-08-01/2015-08-17.json
 
+![noresult](https://user-images.githubusercontent.com/7196430/27771604-396d998e-5f52-11e7-93fc-06276d11782a.png)
+
 exemple de requète invalide:
 id = test
 fdate = test
@@ -52,5 +54,4 @@ format = json
 
 http://127.0.0.1:8000/api/fiouls/test/test/test.json
 
-
-
+![invalid](https://user-images.githubusercontent.com/7196430/27771602-3770c23c-5f52-11e7-91da-85ace727a12b.png)
