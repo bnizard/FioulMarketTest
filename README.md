@@ -30,8 +30,8 @@ Création de la route Get suivante:
 
 http://127.0.0.1:8000/fiouls/{id}/{fdate}/{sdate}.{format} avec les paramètres suivant:       
 **id**: l'id code postal              
-**fdate**: première date de l'interval à chercher                
-**sdate**: deuxième date de l'interval à chercher             
+**fdate**: première date de l'interval à chercher(Format Y-m-d)                     
+**sdate**: deuxième date de l'interval à chercher(Format Y-m-d)               
 **format**: le format de la réponse (ex json)       
 
 Test avec Postman         
