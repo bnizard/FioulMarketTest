@@ -1,0 +1,4 @@
+fioul :
+  type: rest
+  resource:     "@AppBundle/Controller/FioulRestController.php"
+  name_prefix:  api_

@@ -1,0 +1,19 @@
+AppBundle\Entity\Fioul:
+    type: entity
+    table: null
+    repositoryClass: AppBundle\Repository\FioulRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        postalCodeId:
+            type: integer
+            column: postal_code_id
+        amount:
+            type: float
+        date:
+            type: datetime
+    lifecycleCallbacks: {  }
