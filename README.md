@@ -26,6 +26,31 @@ format: le format de la réponse (ex json)
 
 Test avec Postman
 
-requète valide
+exemple de requète valide avec résultat non null :
+id = 5561
+fdate = 2015-08-01
+sdate = 2015-08-17
+format = json
 
 http://127.0.0.1:8000/api/fiouls/5561/2015-08-01/2015-08-17.json
+
+![capture du 2017-07-02 18-00-30](https://user-images.githubusercontent.com/7196430/27771534-6fe4e352-5f50-11e7-942b-ba3cad28e847.png)
+
+exemple de requète valide avec résultat null:
+id = 0
+fdate = 2015-08-01
+sdate = 2015-08-17
+format = json
+
+http://127.0.0.1:8000/api/fiouls/42/2015-08-01/2015-08-17.json
+
+exemple de requète invalide:
+id = test
+fdate = test
+sdate = test
+format = json
+
+http://127.0.0.1:8000/api/fiouls/test/test/test.json
+
+
+
