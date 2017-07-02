@@ -54,7 +54,7 @@ exemple de requète valide avec résultat null:
 **sdate** = 2015-08-17        
 **format** = json       
 
-http://127.0.0.1:8000/api/fiouls/42/2015-08-01/2015-08-17.json
+http://127.0.0.1:8000/api/fiouls/0/2015-08-01/2015-08-17.json
 
 ![noresult](https://user-images.githubusercontent.com/7196430/27771604-396d998e-5f52-11e7-93fc-06276d11782a.png)
 
