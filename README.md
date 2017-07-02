@@ -62,4 +62,4 @@ exemple de requète invalide:
 
 http://127.0.0.1:8000/api/fiouls/test/test/test.json    
 
-![invalid](https://user-images.githubusercontent.com/7196430/27771602-3770c23c-5f52-11e7-91da-85ace727a12b.png)
+![invalid](https://user-images.githubusercontent.com/7196430/27771686-2e8d99e0-5f54-11e7-8270-16cf5639394f.png)
