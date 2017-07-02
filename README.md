@@ -1,5 +1,11 @@
 # FioulMarketTest
 
+Installation:
+
+1- git clone 
+2- composer.phar update   
+3- php app/console server:start   
+
 ## Première partie : Création d'une commande permettant l'import d'un fichier csv de 200000 élements      
 
 Commande : php app/console import:prices ../prices.csv       
