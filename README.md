@@ -2,7 +2,7 @@
 
 Installation:
 
-1- git clone 
+1- git clone https://github.com/bnizard/FioulMarketTest.git             
 2- composer.phar update   
 3- php app/console server:start   
 
